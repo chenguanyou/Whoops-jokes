@@ -1,0 +1,55 @@
+<!--pages/manhua/manhua.wxml-->
+<view class='manhua_view'>
+  <!-- 1 -->
+  <view class='manhua_1_view'>
+    <view bindtap='gaoxiao'>
+      <text>搞笑漫画</text>
+    </view>
+    <view bindtap='qiqu'>
+      <text>奇趣漫画</text>
+    </view>
+  </view>
+  <!-- 2 -->
+  <view class='manhua_2_view'>
+    <view  bindtap='kongbu'>
+      <text>恐怖漫画</text>
+    </view>
+    <view  bindtap='gushi'>
+      <text>故事漫画</text>
+    </view>
+  </view>
+  <!-- 2 -->
+  <!-- 3 -->
+  <view class='manhua_3_view'>
+    <view  bindtap='chatu'>
+      <text>爱看插画</text>
+    </view>
+    <view  bindtap='fankui'>
+      <text style='background:#FED441;'>意见反馈</text>
+    </view>
+  </view>
+  <!-- 3 -->
+</view>
+
+<view class='up_view'>
+  <!-- title -->
+  <!-- <view class='title_view'>
+    <text>最近更新：</text>
+    <view class='title_view_x'></view>
+  </view> -->
+  <!-- title -->
+  <!-- 最新漫画开始 -->
+  <block wx:for="{{list}}" wx:key>
+    <view class='content_view'>
+      <view class='content' bindtap='next' data-url='{{item.url}}'>
+        <view>
+          <text>{{item.title}}</text>
+        </view>
+        <view>
+          <image src='{{item.image}}' mode="widthFix"></image>
+        </view>
+      </view>
+    </view>
+  </block>
+  <!-- 最新漫画结束 -->
+</view>

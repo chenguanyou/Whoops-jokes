@@ -1,0 +1,22 @@
+.biaoqing{
+  display: flex;
+  width: 100%;
+  vertical-align: middle;
+  align-content: center;
+}
+.biaoqings{
+  display: flex;
+  vertical-align: middle;
+  align-content: center;
+}
+.right{
+  float: right;
+  align-content: center;
+  vertical-align: middle;
+}
+.tu image{
+  width: 360rpx;
+  margin-top: 10rpx;
+  margin-left: 8.6rpx;
+  border: 1px solid #FF2414;
+}

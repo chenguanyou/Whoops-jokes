@@ -1,0 +1,23 @@
+<!-- <import src="../../wxParse/wxParse.wxml" /> -->
+
+<view class='biaoqing'>
+<view class='biaoqings'>
+  <view class="left">
+    <block wx:for="{{list}}" wx:key="">
+      <view class='tu' wx:if="{{index%2==0}}">
+        <image src='{{item.pic}}' mode='aspectFit' data-imgurl='{{item.pic}}' bindtap='ATTU'></image>
+      </view>
+    </block>
+  </view>
+  <view class="right">
+    <block wx:for="{{list}}" wx:key="">
+      <view class='tu' wx:if="{{index%2==1}}">
+        <image src='{{item.pic}}' mode='aspectFit' data-imgurl='{{item.pic}}' bindtap='ATTU'></image>
+      </view>
+    </block>
+  </view>
+</view>
+</view>
+<!-- <view class="container">
+  <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+</view> -->

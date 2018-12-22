@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view wx:if="{{hasUserInfo && canIUse}}">
+  <view class="container">
+    <view class='img'>
+      <view>
+        <image class="userinfo-avatar" src="../../images/login.jpg" background-size="cover"></image>
+        <view style='text-align:center;'>哎呦段子</view>
+      </view>
+    </view>
+    <view style='border-bottom:1rpx solid #aaa;width:100%;'></view>
+  </view>
+  <view class='title'>访问本应用必须授权</view>
+  <view class="button">
+    <button type='primary' open-type="getUserInfo" bindgetuserinfo="getUserInfo">确认授权</button>
+    <!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取手机号</button> -->
+  </view>
+  <view class='gzh'>
+    <official-account></official-account>
+  </view>
+</view>

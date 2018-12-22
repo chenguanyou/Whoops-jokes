@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/images/images",
+    "pages/biaoqing/biaoqing",
+    "pages/manhua/manhua",
+    "pages/manhua/gaoxiao/gaoxiao",
+    "pages/manhua/qiqu/qiqu",
+    "pages/manhua/kongbu/kongbu",
+    "pages/manhua/gushi/gushi",
+    "pages/manhua/chatu/chatu",
+    "pages/manhua/fankui/fankui"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "段子",
+        "iconPath": "./images/wz1.png",
+        "selectedIconPath": "./images/wz.png"
+      },
+      {
+        "pagePath": "pages/biaoqing/biaoqing",
+        "text": "表情",
+        "iconPath": "./images/bq1.png",
+        "selectedIconPath": "./images/bq2.png"
+      },
+      {
+        "pagePath": "pages/images/images",
+        "text": "趣图",
+        "iconPath": "./images/rt1.png",
+        "selectedIconPath": "./images/rt2.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "downloadFile": 60000
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "爱看插画",
+  "navigationBarTextStyle": "#000000",
+  "navigationBarBackgroundColor": "#FF2414",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

@@ -1,0 +1,25 @@
+/**index.wxss**/
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.wxParse-div{
+  border-bottom: 3px solid #8A8A8A;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.wxParse-inline{
+  margin: 10rpx;
+  font-size: 30rpx;
+  vertical-align: middle;
+}
+
+.views{    
+  float: right;
+  position: fixed;
+  bottom: 120rpx;
+  right: 20rpx; 
+  width: 80rpx;
+  height: 80rpx;
+  }

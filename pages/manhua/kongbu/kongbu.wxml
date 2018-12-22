@@ -1,0 +1,23 @@
+<!--pages/manhua/manhua.wxml-->
+<view class='up_view'>
+  <!-- title -->
+  <!-- <view class='title_view'>
+    <text>最近更新：</text>
+    <view class='title_view_x'></view>
+  </view> -->
+  <!-- title -->
+  <!-- 最新漫画开始 -->
+  <block wx:for="{{list}}" wx:key>
+    <view class='content_view'>
+      <view class='content' bindtap='next' data-url='{{item.url}}'>
+        <view>
+          <text>{{item.title}}</text>
+        </view>
+        <view>
+          <image src='{{item.image}}' mode="widthFix"></image>
+        </view>
+      </view>
+    </view>
+  </block>
+  <!-- 最新漫画结束 -->
+</view>

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<import src="../../wxParse/wxParse.wxml" />
+<!-- <view class="views" style=" top:{{top}}px;left:{{left}}px;" bindtouchmove="viewTouchMove"><view>
+<image style="height:40px;width:40px;" src="../../images/Ings.png" bindtap='fenxiang'></image>
+</view> </view> -->
+
+
+<view class="container">
+  <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+</view>

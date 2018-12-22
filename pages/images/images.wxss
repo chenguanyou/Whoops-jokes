@@ -1,0 +1,24 @@
+/* pages/images/images.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.wxParse-div{
+  border-bottom: 3px solid rgb(151, 145, 145);
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.wxParse-inline{
+  /* margin-left: 20rpx; */
+  /* margin-right: 20rpx; */
+  margin: 10rpx;
+  margin-bottom: 10rpx;
+  font-weight: 600;
+  font-size: 40rpx;
+  vertical-align: middle;
+}
+.wxParse-a image{
+  width: 100%;
+  vertical-align: middle;
+}
